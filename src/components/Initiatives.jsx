@@ -4,9 +4,9 @@ const Initiatives = () => {
     const [hovered, setHovered] = useState(false);
 
   return (
-    <div className="mt-20 flex flex-col md:flex-row items-center justify-center ">
-      <img src="/images/initiativeBg.jpg" className="md:w-[50%] object-cover" />
-      <div className="text-center md:w-[50%] m-5 flex flex-col items-center justify-center gap-5 ">
+    <div className="mt-20 mb-10 flex flex-col md:flex-row items-center justify-center ">
+      <img src="/images/initiativeBg.jpg" className="absolute md:relative md:w-[50%] object-cover" />
+      <div className="z-[9999] text-center md:w-[50%] m-5 flex flex-col items-center justify-center gap-5 ">
         <h2 className="text-5xl font-semibold my-3 text-white">Helping solve the world's most complex problems</h2>
         <p className="text-lg text-white">
           Business and government leaders around the world apply Esri's

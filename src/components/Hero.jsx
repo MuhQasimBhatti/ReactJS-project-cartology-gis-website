@@ -19,10 +19,10 @@ const Hero = () => {
       <div className="absolute inset-0 flex items-center justify-start w-[40%] ml-[10%]">
         <div className="flex flex-col gap-3">
           <div className="flex">
-            <h1 className="text-white text-4xl md:text-6xl font-bold ">
+            <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold ">
               Exploring Boundless Horizons:
               <br />{" "}
-              <span className="text-5xl">
+              <span className="text-3xl md:text-4xl lg:text-5xl ">
                 Navigate Your World with CartoLogic
               </span>
             </h1>
@@ -30,7 +30,6 @@ const Hero = () => {
           <div
             className={`w-fit rounded-3xl p-0.5 bg-gradient-to-tr from-[#2ABDFF] via-[#9B39FC] to-[#2ABDFF] btn-shadow`}
           >
-            <Link>
             <button
               type="button"
               className={`bg-white bg-opacity-80 ${
@@ -43,7 +42,6 @@ const Hero = () => {
             >
               <span className={`flex-1`}>Say Hi to us!</span>
             </button>
-            </Link>
           </div>
         </div>
       </div>

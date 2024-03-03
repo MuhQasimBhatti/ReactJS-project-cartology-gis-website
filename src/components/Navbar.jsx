@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src="/images/Logo.png" className='h-[60px]' alt="logo"/>
         <p className='text-white text-2xl'>CartoLogic</p>
       </div>
-      <div className='flex gap-4 mr-[5%]'>
+      <div className='gap-4 mr-[5%] hidden md:flex'>
         {navLinks.map((link)=>(
           <Link className='cursor-pointer hover:text-white  hover:border-b-2 hover:border-b-blue-400'>
           <div>{link}</div>
